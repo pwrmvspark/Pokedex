@@ -38,6 +38,7 @@ Start building your components in the `src/` folder. Work though the functionali
 ### Stretch Goals
 
 - [ ] Add a remove button to each pokemon in the `PokemonList`
+- [ ] Add a custom name for each pokemon in the `Search` component and render the name in the `Pokemon` component.
 - [ ] Add full-text search to the `Search` component input (search a pokemon by partial name match).
 
 ## Style

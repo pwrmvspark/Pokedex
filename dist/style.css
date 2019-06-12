@@ -36,6 +36,14 @@ body {
   padding: 1em;
 }
 
+.search input {
+  padding: 0.5em;
+  margin-right: 0.5em;
+  border-radius: 6px;
+  border: 1px solid;
+  font-size: 16px;
+}
+
 .screen {
   margin: 0 auto;
   width: 300px;
@@ -59,24 +67,30 @@ body {
   margin-top: 0;
 }
 
+.pokemon-list .pokemon {
+  width: 160px;
+  margin: 0.5em;
+}
+
 .pokemon {
   border: 1px solid;
-  background: #2d2d2d;
+  background: white;
+  color: black; 
   border-radius: 6px;
   text-align: center;
 }
 
-.pokemon img {
+.pokemon p {
+  margin: 0;
+}
+
+.screen .pokemon img {
   width: 130px;
 }
 
-.pokemon p {
-  margin: 0;
-  color: white;
-}
-
-.dark {
+.screen .pokemon {
   background: #2d2d2d;
+  color: white;
 }
 
 button {
@@ -92,4 +106,8 @@ button {
 
 button:focus {
   outline: none;
+}
+
+button:hover {
+  cursor: pointer;
 }

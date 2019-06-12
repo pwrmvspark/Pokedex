@@ -14,6 +14,7 @@ The component tree will look like this:
 App
 ├── Header
 ├── Search
+│   ├── Pokemon
 ├── PokemonList
 │   ├── Pokemon
 ```

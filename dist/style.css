@@ -1,0 +1,99 @@
+@font-face {
+  font-family: pokemon;
+  src: url(./Pokemon-Solid.ttf);
+}
+
+/* Red: #DC092D */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica, sans-serif;
+  margin: 0;
+}
+
+.pokedex {
+  margin: 2em;
+  background-color: #DC092D;
+  display: grid;
+  border-radius: 6px;
+  grid-template-areas:
+    "nav nav"
+    "search pokedex";
+}
+
+.nav {
+  font-family: pokemon;
+  color: yellow;
+  letter-spacing: 6px;
+  grid-area: nav;
+  margin: 0;
+  padding: 1em;
+}
+
+.search {
+  grid-area: search;
+  padding: 1em;
+}
+
+.screen {
+  margin: 0 auto;
+  width: 300px;
+  height: 230px;
+  margin: 2em auto;
+  padding: 2em;
+  background-color: rgb(230, 230, 230);
+  border-radius: 6px;
+}
+
+.screen .pokemon {
+  height: 100%;
+}
+
+.pokemon-list {
+  grid-area: pokedex;
+  padding: 0 2em 2em 2em;
+}
+
+.pokemon-list h2 {
+  margin-top: 0;
+}
+
+.pokemon {
+  /* width: 120px; */
+  /* height: 140px; */
+  border: 1px solid;
+  background: #2d2d2d;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.pokemon img {
+  width: 130px;
+}
+
+.pokemon p {
+  margin: 0;
+  color: white;
+}
+
+.dark {
+  background: #2d2d2d;
+}
+
+button {
+  padding: 0.5em;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+button:focus {
+  outline: none;
+}

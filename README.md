@@ -4,7 +4,7 @@ Your task is to create a Pokedex application using React.
 
 ## Setup
 
-Before you can begin working on the components you need to understand the included `babel` & `webpack` workflow. Take a few minutes to read through the files provided taking note of the scripts listed in the `package.json` and the `webpack.config` file. Try starting the application and check that everything builds and loads correctly before moving on.
+Before you can begin working on the components you need to understand the included `babel` & `webpack` workflow. Take a few minutes to read through the files provided taking note of the scripts listed in the `package.json` and the `webpack.config` & `.babelrc` files. Try starting the application and check that everything builds and loads correctly before moving on.
 
 (Note: There is an optional `style.css` file included in the project to help your pokedex look pretty. Feel free to add the provided classes in as you go or leave them out entirely.)
 

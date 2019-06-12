@@ -3,8 +3,6 @@
   src: url(./Pokemon-Solid.ttf);
 }
 
-/* Red: #DC092D */
-
 * {
   box-sizing: border-box;
 }
@@ -62,8 +60,6 @@ body {
 }
 
 .pokemon {
-  /* width: 120px; */
-  /* height: 140px; */
   border: 1px solid;
   background: #2d2d2d;
   border-radius: 6px;

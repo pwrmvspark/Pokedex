@@ -27,12 +27,12 @@ Test the api `GET /api/v2/pokemon/{id or name}/` endpoint with httpie or postman
 
 Start building your components in the `src/` folder. Work though the functionality in this order:
 
-- [ ] The `App` component will contain the data for your pokedex and methods to modify the pokemon in your pokedex.
+- [d] The `App` component will contain the data for your pokedex and methods to modify the pokemon in your pokedex.
   - a pokemon object should look like this: `{ name: 'Abra', img: 'http://...' }`
-- [ ] The `Header` component should render a title header and any additional static information in the navbar.
-- The `Pokemon` component should get passed name and img props and render the data to an img and p tag respectively. This component should be simple and reusable.
-- [ ] The `PokemonList` component should get passed an array of pokemon objects in props and render a `Pokemon` component for each object.
-- [ ] The `Search` component will render an input and button allowing the user to search for pokemon by name and add them to the pokedex. You will need to make a request to the PokeAPI when the input changes and capture/save the result when the user clicks the Add button.
+- [d] The `Header` component should render a title header and any additional static information in the navbar.
+- [d] The `Pokemon` component should get passed name and img props and render the data to an img and p tag respectively. This component should be simple and reusable.
+- [d] The `PokemonList` component should get passed an array of pokemon objects in props and render a `Pokemon` component for each object.
+- [d] The `Search` component will render an input and button allowing the user to search for pokemon by name and add them to the pokedex. You will need to make a request to the PokeAPI when the input changes and capture/save the result when the user clicks the Add button.
   - This should cause the `PokemonList` componenet to re-render, showing the newly added pokemon
 
 ### Stretch Goals

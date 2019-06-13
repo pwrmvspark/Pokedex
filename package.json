@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/gSchool/ghrsea03-pokedex#readme",
   "dependencies": {
+    "ajax": "0.0.4",
+    "jquery": "^3.4.1",
     "live-server": "^1.2.1"
   },
   "devDependencies": {

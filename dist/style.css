@@ -31,7 +31,9 @@ body {
   grid-area: nav;
   margin: 0;
   padding: 1em;
-  font-size: 3em;
+  font-size: 5em;
+  display: flex;
+  justify-content: center
 }
 
 .search {
@@ -98,7 +100,7 @@ body {
   color: white;
 }
 
-button {
+#button {
   padding: 0.5em;
   background: green;
   color: white;
@@ -107,12 +109,10 @@ button {
   font-weight: bold;
   font-size: 16px;
   text-transform: uppercase;
+  cursor: pointer;
+  /* margin-top: 2em; why doesnt this work...*/
 }
 
 button:focus {
   outline: none;
-}
-
-button:hover {
-  cursor: pointer;
 }

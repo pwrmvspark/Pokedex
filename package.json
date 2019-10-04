@@ -1,5 +1,5 @@
 {
-  "name": "ghrsea03-pokedex",
+  "name": "Pokedex",
   "version": "1.0.0",
   "description": "Create a Pokedex application using React.",
   "main": "index.js",
@@ -8,14 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gSchool/ghrsea03-pokedex.git"
+    "url": "https://github.com/pwrmvspark/Pokedex.git"
   },
-  "author": "Scott Hurlow <scott.hurlow@galvanize.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gSchool/ghrsea03-pokedex/issues"
+    "url": "https://github.com/pwrmvspark/Pokedex.git/issues"
   },
-  "homepage": "https://github.com/gSchool/ghrsea03-pokedex#readme",
+  "homepage": "https://github.com/pwrmvspark/Pokedex.git#readme",
   "dependencies": {
     "ajax": "0.0.4",
     "jquery": "^3.4.1",
